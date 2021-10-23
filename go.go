@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	var pro string = "Макс - программист"
+	pro := "Макс - программист"
 	fmt.Println(pro)
 }
