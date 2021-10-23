@@ -3,12 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	pro := "Макс - программист"
-	a := "автоматизатор"
-	w := "c"
-	y := 2022
-	yy := "года"
+	i := 1
+	for i <= 10 {
+		fmt.Println(i)
+		i = i + 1
+	}
 
-	fmt.Println(pro, a, w, y, yy)
-	fmt.Printf("%T %T %T %T %T", pro, a, w, y, yy) // функция выводит типы
+	for i := 0; i <= 7; i++ { // упрошенный вариант первого цикла
+		fmt.Println(i)
+	}
+
 }
