@@ -20,7 +20,7 @@ func main() {
 	}
 
 	for {
-		fmt.Print("infinity")
+		fmt.Print("infinity") // бесконечный цикл
 	}
 
 }
