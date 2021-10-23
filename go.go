@@ -13,4 +13,14 @@ func main() {
 		fmt.Println(i)
 	}
 
+	text := []string{"this", "is", "learn", "Go", "for", "me"}
+	fmt.Println(text[3])     // вывесть конкретное значение из массива по его индексу
+	for _, i := range text { // вывести все значения массива по порядку
+		fmt.Println(i)
+	}
+
+	for {
+		fmt.Print("infinity")
+	}
+
 }
