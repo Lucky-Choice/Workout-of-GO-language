@@ -19,8 +19,12 @@ func main() {
 		fmt.Println(i)
 	}
 
-	for {
-		fmt.Print("infinity") // бесконечный цикл
+	text1 := []string{"this", "is", "learn", "Go", "for", "me"}
+	for _, i := range text1 {
+		if i == "Go" { // если значение равно "Go" то цикл заканчивается. Значение Go не выведится т.к. i == "Go"
+			break
+		}
+		fmt.Println(i)
 	}
 
 }
